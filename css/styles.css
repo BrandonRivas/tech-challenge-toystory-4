@@ -27,35 +27,57 @@
     
     max-width of the content is 1400px
 */
-body{
-    background: #5582c6;
+body {
+  background: #5582c6;
+  font-size: 17px;
+  color: #960001;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Cabin", sans-serif;
 }
 .header {
   background-image: url(https://github.com/BrandonRivas/tech-challenge-toystory-4/blob/main/images/toystory4_wallpaper.jpg?raw=true);
   height: 65vh;
-  
 }
 
 .poster_container {
-    position: absolute;
-    top: 360px;
-    left: 220px;
-    display: flex;
-    justify-content:flex-end;
-    align-items: center;
+  position: absolute;
+  top: 360px;
+  left: 220px;
 }
 
 .poster {
-    width: 350px;
+  width: 350px;
 }
 
 .title {
-width: 80rem;
-display: flex;
-justify-content:center;
-padding-top: 15px;
-height: 243px;
-
-
+  width: 95rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  height: 243px;
 }
-/* Add all of your styles here */
+
+.image_card {
+    width: 10rem;
+    padding-right: 15px;
+}
+
+.character_card {
+    display: flex;
+}
