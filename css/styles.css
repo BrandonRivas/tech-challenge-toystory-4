@@ -91,12 +91,12 @@ h3 {
   margin-bottom: 15px;
 }
 
-.character_container {
+.character_flex {
 }
 .character_card {
-  display: flex;
 }
 .image_card {
-  width: 10rem;
+  width: 100px;
   padding-right: 15px;
+  float: left;
 }
