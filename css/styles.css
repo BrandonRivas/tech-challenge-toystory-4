@@ -28,4 +28,11 @@
     max-width of the content is 1400px
 */
 
+.header {
+  background-image: url(https://github.com/BrandonRivas/tech-challenge-toystory-4/blob/main/images/toystory4_wallpaper.jpg?raw=true);
+  height: 65vh;
+  
+}
+
+
 /* Add all of your styles here */
