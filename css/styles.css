@@ -36,7 +36,6 @@ body {
 h1 {
   font-size: 70px;
 }
-
 h2 {
   font-size: 36px;
 }
@@ -53,31 +52,53 @@ h3 {
 .header {
   background-image: url(https://github.com/BrandonRivas/tech-challenge-toystory-4/blob/main/images/toystory4_wallpaper.jpg?raw=true);
   height: 65vh;
+  position: relative;
 }
-
 .poster_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 360px;
   left: 220px;
+  
 }
 
+.title {
+    display: flex;
+    align-self: flex-end;
+    padding-bottom: 180px;
+    padding-left: 20px;
+}
 .poster {
   width: 350px;
 }
 
-.title {
-  width: 95rem;
-  display: flex;
-  justify-content: center;
-  padding-top: 15px;
-  height: 243px;
+.synopsis_container {
+    padding-top: 300px;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
 }
 
+.characters {
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 15px;
+    
+}
+
+.character_container {
+   
+}
+.character_card {
+    display: flex;
+}
 .image_card {
     width: 10rem;
     padding-right: 15px;
-}
-
-.character_card {
-    display: flex;
 }
