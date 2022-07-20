@@ -92,6 +92,11 @@ h3 {
 }
 
 .character_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.character_container {
+  width: 50%;
 }
 .character_card {
 }
