@@ -63,44 +63,40 @@ h3 {
   position: absolute;
   top: 360px;
   left: 220px;
-  
 }
 
 .title {
-    display: flex;
-    align-self: flex-end;
-    padding-bottom: 180px;
-    padding-left: 20px;
+  display: flex;
+  align-self: flex-end;
+  padding-bottom: 180px;
+  padding-left: 20px;
 }
 .poster {
   width: 350px;
 }
 
 .synopsis_container {
-    padding-top: 300px;
-    margin-left: 220px;
-    margin-right: 220px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
+  padding-top: 60vh;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .characters {
-    margin-left: 220px;
-    margin-right: 220px;
-    margin-bottom: 15px;
-    
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-bottom: 15px;
 }
 
 .character_container {
-   
 }
 .character_card {
-    display: flex;
+  display: flex;
 }
 .image_card {
-    width: 10rem;
-    padding-right: 15px;
+  width: 10rem;
+  padding-right: 15px;
 }
