@@ -156,3 +156,23 @@ a {
   flex-direction: column;
   align-content: space-between;
 }
+
+#post {
+  background-color: #5582c6;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  height: 35px;
+  width: 204px;
+}
+
+#post:focus {
+  background-color: #79519f;
+}
+
+#unordered {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
