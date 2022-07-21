@@ -124,6 +124,9 @@ a {
   background-color: #e2e55f;
   padding: 30px;
 }
+.quote_container {
+  padding-left: 70px;
+}
 .woody_quote {
   color: #960001;
 }
