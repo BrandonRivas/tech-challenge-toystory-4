@@ -136,3 +136,23 @@ a {
 .woody_word {
   font-weight: bold;
 }
+
+.comments {
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-bottom: 15px;
+}
+
+#comment-box,
+#post {
+  border: none;
+  width: 200px;
+  height: 20px;
+  margin: 5px;
+}
+
+.comment_button {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
