@@ -34,7 +34,6 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  max-width: 1400px;
 }
 h1 {
   font-size: 70px;
@@ -67,7 +66,7 @@ a {
 }
 .header {
   background-image: url(https://github.com/BrandonRivas/tech-challenge-toystory-4/blob/main/images/toystory4_wallpaper.jpg?raw=true);
-  height: 65vh;
+  height: 600px;
   position: relative;
 }
 .poster_container {
@@ -89,9 +88,10 @@ a {
 .poster {
   width: 350px;
 }
-
+.spacer {
+  height: 300px;
+}
 .synopsis_container {
-  padding-top: 20%;
   margin-left: 220px;
   margin-right: 220px;
   margin-bottom: 15px;
