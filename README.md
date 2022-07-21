@@ -14,4 +14,5 @@ Thanks,
 
 B
 
-![image](https://user-images.githubusercontent.com/89816116/180145243-18200107-cebe-4658-91b3-f2b9f3dbb72c.png)
+
+![struggle-bus](https://user-images.githubusercontent.com/89816116/180145480-8775d332-358d-4350-8b1d-e848d59269eb.gif)
