@@ -41,11 +41,13 @@ h1 {
 }
 h2 {
   font-size: 36px;
+  margin: 0;
 }
 
 h3 {
   font-size: 24px;
   padding-bottom: 3px;
+  margin: 0;
 }
 
 h1,
@@ -80,8 +82,9 @@ a {
 .title {
   display: flex;
   align-self: flex-end;
-  padding-bottom: 180px;
-  padding-left: 20px;
+  margin-left: 20px;
+  background-color: #d4f1f4;
+  padding: 0 40px 2px 40px;
 }
 .poster {
   width: 350px;
@@ -109,7 +112,6 @@ a {
 }
 .character_container {
   width: 50%;
-  padding-bottom: 20px;
 }
 .space p:nth-of-type(2) {
   padding-right: 20px;
@@ -129,4 +131,8 @@ a {
 }
 .woody_quote {
   color: #960001;
+}
+
+.woody_word {
+  font-weight: bold;
 }
